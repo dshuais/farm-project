@@ -9,16 +9,19 @@
     "clean": "farm clean"
   },
   "dependencies": {
+    "nprogress": "^0.2.0",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-router-dom": "^6.24.0"
   },
   "devDependencies": {
     "@farmfe/cli": "^1.0.2",
     "@farmfe/core": "^1.1.13",
     "@farmfe/plugin-react": "^1.0.1",
+    "@types/nprogress": "^0.2.3",
     "@types/react": "18",
-    "core-js": "^3.36.1",
     "@types/react-dom": "18",
+    "core-js": "^3.36.1",
     "react-refresh": "^0.14.0"
   }
 }
